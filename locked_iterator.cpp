@@ -4,6 +4,7 @@
 #include "locked_iterator.h"
 #include <list>
 #include <iostream>
+
 #ifdef PLAIN_MODE
 typedef std::list<unsigned int> SampleList;
 #elif defined(RECURSIVE_LOCK)
@@ -54,4 +55,4 @@ int main()
      }
      std::cout << "4" << std::endl;
      return 0;
-
+}
